@@ -43,10 +43,10 @@ const newTeachers = []
 
 for (let i = 0; i <= teachers.length - 1; i++){
 
-  const ciao = teachers[i];
+  const removeEd = teachers[i];
 
-  if (teachers[i] !== 'Ed'){
-    newTeachers.push(ciao);
+  if (removeEd !== 'Ed'){
+    newTeachers.push(removeEd);
   }
 
 }
